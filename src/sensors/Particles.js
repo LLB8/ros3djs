@@ -79,11 +79,7 @@ ROS3D.Particles = function(options) {
 
     this.shaderMaterial = new THREE.ShaderMaterial(
     {
-        uniforms:          customUniforms,
-        attributes:        this.attribs,
-        vertexShader:      this.vertex_shader,
-        fragmentShader:    this.fragment_shader,
-        transparent: true,
+        color: 0x888888,
     });
 
     this.ps = new THREE.ParticleSystem( this.geom, this.shaderMaterial );
