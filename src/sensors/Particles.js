@@ -77,7 +77,7 @@ ROS3D.Particles = function(options) {
         alpha:         { type: 'f', value: [] }
     };
 
-    this.shaderMaterial = new THREE.ShaderMaterial(
+    this.shaderMaterial = new THREE.PointsMaterial(
     {
         color: 0x888888,
     });
