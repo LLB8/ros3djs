@@ -79,7 +79,7 @@ ROS3D.Particles = function(options) {
 
     this.shaderMaterial = new THREE.PointsMaterial(
     {
-        color: 0x888888,
+        color: 0xffff00,
     });
 
     this.ps = new THREE.ParticleSystem( this.geom, this.shaderMaterial );
